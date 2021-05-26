@@ -436,6 +436,8 @@ button {
   display: block;
   margin-bottom: 9px;
   color: var(--white-opacity);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:last-child {
